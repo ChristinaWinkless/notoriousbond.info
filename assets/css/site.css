@@ -1,0 +1,357 @@
+/* Header */
+header#primary{
+
+    background: url(../img/title.jpg) no-repeat center 23px #fff;
+    position: fixed;
+    width: 100%;
+    height: 62px;
+    z-index: 100;
+}
+
+header#primary section{
+    width: 1280px;
+    height: 62px;
+    margin: 0 auto;
+    position: relative;
+}
+
+img#awards-logo{
+    position: fixed;
+    top: 6px;
+    left: 10px;
+    z-index: 1000;
+}
+
+/* Header Navigation */
+header#primary nav{
+    top: 25px;
+    position: absolute;
+}
+
+header#primary nav.scenes{
+    right: 170px;
+}
+   
+header#primary nav.about{
+    left: 182px;
+} 
+
+header#primary nav ul li{
+    float: left;
+    margin-right: 10px;
+}
+
+header#primary nav ul li a{
+    width: 12px;
+    height: 12px;
+    background: #575757;
+    display: block;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    background-color: #000;
+    opacity: 0.2;
+
+    -webkit-transition: all 0.1s linear;
+    -moz-transition: all 0.1s linear;
+    transition: all 0.1s linear;
+}
+
+header#primary nav ul li a.active{
+    opacity: 1;
+}
+
+header#primary nav ul li a.scene1.active,
+header#primary nav ul li a.scene1:hover{
+    background-color: #939d0d;
+}
+
+header#primary nav ul li a.scene2.active,
+header#primary nav ul li a.scene2:hover{
+    background-color: #14a9c4;
+}
+
+header#primary nav ul li a.scene3.active,
+header#primary nav ul li a.scene3:hover{
+    background-color: #ffdd54;
+}
+
+header#primary nav ul li a.scene4.active,
+header#primary nav ul li a.scene4:hover{
+    background-color: #d90024;
+}
+
+header#primary nav ul li a.scene5.active,
+header#primary nav ul li a.scene5:hover{
+    background-color: #87bfb8;
+}
+
+header#primary nav ul li a.scene6.active,
+header#primary nav ul li a.scene6:hover{
+    background-color: #01383b;
+}
+
+header#primary nav ul li a.about{
+    background-color: #01383b;
+}
+
+
+
+/* Container */
+div#container{
+    position: relative;
+    padding-top: 62px;
+}
+
+/* Scene */
+section.scene{
+    background-color: black;
+    background-repeat: no-repeat;
+    background-position: top center;
+    position: relative;
+    overflow: hidden;
+    height: 760px;
+}
+
+/* Scene Timeline */
+section.scene section.timeline{
+    border-left: 1px solid #fff;
+    position: relative;
+    left: 50%;
+    margin-left: -490px;
+    width: 10px;
+    height: 900px;
+}
+
+section.scene section.timeline img{
+    margin-left: -7px;
+    margin-top: 80px;
+}
+
+/* Scene Bond */
+section.scene figure.james{
+    position: absolute;
+    width: auto;
+    height: auto;
+}
+
+/* Scene Infographics */
+section.scene section.infographics{
+    position: relative;
+    left: 50%;
+}
+
+section.scene section.infographics img{
+    margin-top: -80px;
+} 
+
+/* Scene Intro */
+section#intro.scene{
+    background-image: url('../img/intro/intro.jpg');
+    background-color: #1c1c1c;
+    height: 712px;
+}
+
+
+
+/* Scene 1 */
+section#scene1.scene section.timeline{
+    border-color: #000;
+}
+
+section#scene1.scene{
+    background-image: url('../img/scene1/background.jpg');
+    background-position: center -20px;
+    background-color: #f0f0d1;
+}
+
+section#scene1.scene figure.james{
+    width: 502px;
+    top: 210px;
+    left: 50%;
+    margin-left: -317px;
+    margin-top: -40px;
+}
+
+section#scene1.scene section.infographics img{
+    margin-left: 350px;
+}
+
+
+/* Scene 2 */
+section#scene2.scene{
+    background-image: url('../img/scene2/background.jpg');
+    background-color: #14a9c4;
+}
+
+section#scene2.scene figure.james{
+    width: 483px;
+    top: 210px;
+    left: 50%;
+    margin-left: -321px;
+}
+
+section#scene2.scene section.infographics img{
+    margin-left: 350px;
+    margin-top: 100px;
+}
+
+/* Scene 3 */
+section#scene3.scene section.timeline{
+    border-color: #000;
+}
+
+section#scene3.scene{
+    background-image: url('../img/scene3/background.jpg');
+    background-color: #fff6d1;
+}
+
+section#scene3.scene figure.james{
+    width: 437px;
+    top: 210px;
+    left: 50%;
+    margin-left: -281px;
+}
+
+section#scene3.scene section.infographics img{
+    margin-left: 350px;
+    margin-top: 0;
+}
+
+/* Scene 4 */
+section#scene4.scene{
+    background-image: url('../img/scene4/background.jpg');
+    background-color: #fff;
+}
+
+section#scene4.scene figure.james{
+    width: 445px;
+    top: 140px;
+    left: 50%;
+    margin-left: -335px;
+}
+
+section#scene4.scene section.infographics img{
+    margin-left: 350px;
+    margin-top: 0;
+}
+
+/* Scene 5 */
+section#scene5.scene section.timeline{
+    border-color: #000;
+}
+
+section#scene5.scene{
+    background-image: url('../img/scene5/background.jpg');
+    background-color: #a7d1cc;
+}
+
+section#scene5.scene figure.james{
+    width: 743px;
+    top: 104px;
+    left: 50%;
+    margin-left: -443px;
+}
+
+section#scene5.scene section.infographics img{
+    margin-left: 350px;
+    margin-top: -50px;
+}
+
+/* Scene 6 */
+section#scene6.scene{
+    background-image: url('../img/scene6/background.jpg');
+    background-color: #01383b;
+}
+
+section#scene6.scene figure.james{
+    top: 172px;
+    width: 426px;
+    left: 50%;
+    margin-left: -228px;
+}
+
+section#scene6.scene section.infographics img{
+    margin-left: 350px;
+    margin-top: 20px;
+}
+
+/* Scene about */
+section#about.scene{
+    background-color: #1c1c1c;
+    height: 920px;
+}
+
+section#about.scene h2{
+    margin: 0 auto;
+    margin-top: 83px;
+    width: 629px;
+}
+
+section#about.scene h2 img{
+}
+
+section#about.scene nav.links{
+    margin-top: 88px;
+    margin-left: 50%;
+}
+
+section#about.scene nav.links ul{
+    list-style: none;
+    margin-left: -420px;
+    width: 840px;
+}
+
+section#about.scene nav.links ul li{
+    margin-right: 54px;
+    display: inline-block;
+}
+
+section#about.scene nav.links ul li:nth-last-child(1){
+    margin-right: 0;
+}
+
+section#about.scene nav.links ul li a{
+    display: block;
+}
+
+section#about.scene nav.links ul li a.christina{
+    background: url('../img/about/btn-christina-spritesheet.png');
+    width: 243px;
+    height: 197px;
+}
+
+section#about.scene nav.links ul li a.christina:hover{
+    background-position: 0 -197px;
+}
+
+section#about.scene nav.links ul li a.david{
+    background: url('../img/about/btn-david-spritesheet.png');
+    width: 239px;
+    height: 200px;
+}
+
+section#about.scene nav.links ul li a.david:hover{
+    background-position: 0 -200px;
+}
+
+section#about.scene nav.links ul li a.alexis{
+    background: url('../img/about/btn-alexis-spritesheet.png');
+    width: 240px;
+    height: 200px;
+}
+
+section#about.scene nav.links ul li a.alexis:hover{
+    background-position: 0 -200px;
+}
+
+section#about.scene h3{
+    margin: 0 auto;
+    margin-top: 89px;
+    width: 118px;
+    height: 117px;
+}
+
+section#about.scene h3 a{
+    display: block;
+}
